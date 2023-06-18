@@ -33,7 +33,7 @@ public class Student extends Person implements Comparable<Student>{
 
     @Override
     public int compareTo(Student o) {
-        System.out.println(super.getFirstName()+" - "+o.getFirstName());
+        // System.out.println(super.getFirstName()+" - "+o.getFirstName()); // показать как происходит сортировка во именам
         if(this.getAge()==o.getAge())
         {
             if(this.getId()==o.getId())
